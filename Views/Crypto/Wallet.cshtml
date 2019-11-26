@@ -1,0 +1,103 @@
+﻿@model CryptoApp.Models.WalletModel
+
+@{
+    ViewData["Title"] = "Wallet";
+}
+
+<h2>Wallet</h2>
+
+<div>
+    <h4>WalletModel</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TotalAccountValue)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.TotalAccountValue)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.USD)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.USD)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.BTC)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.BTC)
+        </dd>
+        <dd>
+            @Html.DisplayNameFor(model => model.BTCValue)
+        </dd>
+        <dd>
+            @Html.DisplayFor(model => model.BTCValue)
+        </dd>
+        <dd>
+            @Html.ActionLink("Sell", "SellCrypto", new { cryptoSymbol = "BTC", amountOnHand = Model.BTC })
+        </dd>
+        <dd>
+            @Html.ActionLink("Buy", "BuyCrypto", new { CryptoSymbol = "BTC", amountOnHand = Model.BTC })
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ETH)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ETH)
+        </dd>
+        <dd>
+            @Html.DisplayNameFor(model => model.ETHValue)
+        </dd>
+        <dd>
+            @Html.DisplayFor(model => model.ETHValue)
+        </dd>
+        <dd>
+            @Html.ActionLink("Sell", "SellCrypto", new { cryptoSymbol = "ETH", amountOnHand = Model.ETH })
+        </dd>
+        <dd>
+            @Html.ActionLink("Buy", "BuyCrypto", new { CryptoSymbol = "ETH", amountOnHand = Model.ETH })
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.LTC)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.LTC)
+        </dd>
+        <dd>
+            @Html.DisplayNameFor(model => model.LTCValue)
+        </dd>
+        <dd>
+            @Html.DisplayFor(model => model.LTCValue)
+        </dd>
+        <dd>
+            @Html.ActionLink("Sell", "SellCrypto", new { cryptoSymbol = "LTC", amountOnHand = Model.LTC })
+        </dd>
+        <dd>
+            @Html.ActionLink("Buy", "BuyCrypto", new { CryptoSymbol = "LTC", amountOnHand = Model.LTC })
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.DOGE)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DOGE)
+        </dd>
+        <dd>
+            @Html.DisplayNameFor(model => model.DOGEValue)
+        </dd>
+        <dd>
+            @Html.DisplayFor(model => model.DOGEValue)
+        </dd>
+        <dd>
+            @Html.ActionLink("Sell", "SellCrypto", new { cryptoSymbol = "DOGE", amountOnHand = Model.DOGE })
+        </dd>
+        <dd>
+            @Html.ActionLink("Buy", "BuyCrypto", new { CryptoSymbol = "DOGE", amountOnHand = Model.DOGE })
+        </dd>
+
+    </dl>
+</div>
+<div>
+    <a asp-action="Index">Back to Home</a>
+</div>

@@ -1,0 +1,12 @@
+C:\Users\Abc\Downloads\CryptoApp-master\CryptoApp-master\CryptoApp\bin\Debug\netcoreapp2.0\CryptoApp.deps.json
+C:\Users\Abc\Downloads\CryptoApp-master\CryptoApp-master\CryptoApp\bin\Debug\netcoreapp2.0\CryptoApp.runtimeconfig.json
+C:\Users\Abc\Downloads\CryptoApp-master\CryptoApp-master\CryptoApp\bin\Debug\netcoreapp2.0\CryptoApp.runtimeconfig.dev.json
+C:\Users\Abc\Downloads\CryptoApp-master\CryptoApp-master\CryptoApp\bin\Debug\netcoreapp2.0\CryptoApp.dll
+C:\Users\Abc\Downloads\CryptoApp-master\CryptoApp-master\CryptoApp\bin\Debug\netcoreapp2.0\CryptoApp.pdb
+C:\Users\Abc\Downloads\CryptoApp-master\CryptoApp-master\CryptoApp\obj\Debug\netcoreapp2.0\CryptoApp.csprojAssemblyReference.cache
+C:\Users\Abc\Downloads\CryptoApp-master\CryptoApp-master\CryptoApp\obj\Debug\netcoreapp2.0\CryptoApp.csproj.CoreCompileInputs.cache
+C:\Users\Abc\Downloads\CryptoApp-master\CryptoApp-master\CryptoApp\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\Abc\Downloads\CryptoApp-master\CryptoApp-master\CryptoApp\obj\Debug\netcoreapp2.0\CryptoApp.AssemblyInfoInputs.cache
+C:\Users\Abc\Downloads\CryptoApp-master\CryptoApp-master\CryptoApp\obj\Debug\netcoreapp2.0\CryptoApp.AssemblyInfo.cs
+C:\Users\Abc\Downloads\CryptoApp-master\CryptoApp-master\CryptoApp\obj\Debug\netcoreapp2.0\CryptoApp.dll
+C:\Users\Abc\Downloads\CryptoApp-master\CryptoApp-master\CryptoApp\obj\Debug\netcoreapp2.0\CryptoApp.pdb
